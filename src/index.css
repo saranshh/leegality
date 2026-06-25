@@ -33,20 +33,7 @@
   --shadow-hover: 0 12px 24px rgba(0,0,0,0.08);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-app: #0a0e14;
-    --bg-card: #151a22;
-    --bg-sidebar: #151a22;
-    --text-primary: #f3f4f6;
-    --text-secondary: #9ca3af;
-    --text-muted: #6b7280;
-    --border-color: #242c37;
-    --shadow-sm: 0 2px 4px rgba(0,0,0,0.2);
-    --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
-    --shadow-hover: 0 12px 24px rgba(0,0,0,0.4);
-  }
-}
+
 
 * {
   box-sizing: border-box;
@@ -911,11 +898,7 @@ body {
   padding: 1.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  .detail-price-box {
-    background-color: rgba(36, 44, 55, 0.3);
-  }
-}
+
 
 .detail-price-row {
   display: flex;
