@@ -31,7 +31,7 @@ This outputs production-ready assets inside the `dist/` directory.
 
 ---
 
-## 📌 Architectural Decisions
+## Architectural Decisions
 
 1. **URL Search Parameter State Sync**:
    All filters (categories checklist, min/max price, selected brands checklist, and search query) and the current pagination page are synchronized with the browser's URL search parameters (using React Router's `useSearchParams`).
@@ -49,7 +49,7 @@ This outputs production-ready assets inside the `dist/` directory.
 
 ---
 
-## 💡 Assumptions Made
+## Assumptions Made
 
 1. **Combined Filtering**:
    Since dynamic category fetching (`/products/category/{category}`) doesn't support combined server-side query filters for brand list or price ranges natively, we fetch all category products using `limit=0` and perform efficient client-side combined filtering & pagination on the results. This provides a lightning-fast responsive interface.
@@ -60,7 +60,7 @@ This outputs production-ready assets inside the `dist/` directory.
 
 ---
 
-## 🔮 Improvements If Given More Time
+## Improvements If Given More Time
 
 1. **Debounce Search Inputs**: Add a debounce delay to the sidebar search bar to prevent rapid successive filter recalculations while typing.
 2. **Skeleton Loaders**: Implement elegant skeleton outlines loaders instead of a spinning wheel.
