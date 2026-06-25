@@ -2,7 +2,7 @@
 
 An Amazon-style Product Listing and Detail Page web application built with React, React Router, and Vanilla CSS. It dynamically fetches and filters product data from the DummyJSON API.
 
-## 🚀 Setup & Execution Instructions
+## Setup & Execution Instructions
 
 Follow these steps to run the application locally:
 
